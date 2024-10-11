@@ -1,0 +1,47 @@
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #76aac0;
+  padding: 1rem;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  color: #ddd;
+}
+/* App.css or index.css */
+
+/* App.css */
+.app-background {
+  background-image: url('./pictures/back.jpeg'); /* Use the correct path */
+  background-size: cover; /* Ensures the image covers the entire page */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-position: center center; /* Centers the background image */
+  min-height: 100vh; /* Ensures the background covers the full viewport */
+}
+
+
